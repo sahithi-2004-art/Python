@@ -23,3 +23,9 @@ f.close()
 f=open('smile.txt','a')
 f.write("gorgeous......")
 f.close()
+
+# Extensions
+-->r+ -> file should exist/overwrites existing content
+-->w+ -> content clarity(refresh) 
+-->a+ -> creates a file if exists, reading works only after seek()
+truncate() -> removing the unwanted data
